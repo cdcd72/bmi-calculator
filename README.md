@@ -1,4 +1,4 @@
-# BMI Calculator
+# BMI 計算機
 
 ## 使用案例
 
