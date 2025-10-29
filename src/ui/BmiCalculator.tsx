@@ -5,7 +5,6 @@ import Button from '@/ui/Button';
 import InputGroup from '@/ui/InputGroup';
 import Label from '@/ui/Label';
 import NumericInput from '@/ui/NumericInput';
-import Title from '@/ui/Title';
 import Column from '@/ui/layout/Column';
 import Container from '@/ui/layout/Container';
 import Row from '@/ui/layout/Row';
@@ -95,8 +94,6 @@ function BmiCalculator() {
 
   return (
     <StyledCalculator>
-      <Title>BMI 計算機</Title>
-
       <Row>
         <Column>
           <InputGroup>

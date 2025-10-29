@@ -1,5 +1,6 @@
-// eslint-disable-next-line @typescript-eslint/no-empty-object-type, @typescript-eslint/no-empty-interface
-interface ImportMetaEnv {}
+interface ImportMetaEnv {
+  readonly BC_TITLE: string;
+}
 
 interface ImportMeta {
   readonly env: ImportMetaEnv;
